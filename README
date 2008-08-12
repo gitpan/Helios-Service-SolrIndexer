@@ -1,0 +1,41 @@
+Helios-Service-SolrIndexer version 0.01
+=======================================
+
+Helios::Service::SolrIndexer is a simple example application to 
+demonstrate the typical Helios application design pattern in the context
+of a search engine index update (in this case, Apache Solr). 
+
+INSTALLATION
+
+This module is really designed as a demostration application (one most 
+likely would never put this in production), but if one wants to install 
+this module, type the following:
+
+   perl Makefile.PL
+   make
+   make test
+   make install
+   
+See the Helios::Service::SolrIndexer POD for Helios application 
+configuration options.
+
+DEPENDENCIES
+
+This module requires these other modules and libraries:
+
+  Helios
+  LWP::UserAgent
+  HTTP::Request
+  XML::Writer
+
+COPYRIGHT AND LICENCE
+
+Put the correct copyright and licence information here.
+
+Copyright (C) 2008 by Andrew Johnson
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself, either Perl version 5.8.0 or,
+at your option, any later version of Perl 5 you may have available.
+
+

@@ -1,0 +1,16 @@
+--- #YAML:1.0
+name:                Helios-Service-SolrIndexer
+version:             0.01_01
+abstract:            A demostration indexing application for the Helios job processing framework
+license:             perl
+author:              
+    - Andrew Johnson <lajandy@cpan.org>
+generated_by:        ExtUtils::MakeMaker version 6.44
+distribution_type:   module
+requires:     
+    Bundle::LWP:                   
+    Helios:                        2
+    XML::Writer:                   
+meta-spec:
+    url:     http://module-build.sourceforge.net/META-spec-v1.3.html
+    version: 1.3
